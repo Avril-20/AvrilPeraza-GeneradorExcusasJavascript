@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.excuse-text {
+  text-align: center;
+}
+.mt-5 {
+  font-weight: 700;
+  color: black;
+}
+
+#excuse {
+  color: darkgrey;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+#excuse:hover {
+  color: black;
+}
+
+#btn {
+  background-color: blanchedalmond;
+  color: black;
+  font-weight: 500;
+  margin: 0;
+  padding: 5px 5px;
+  border-radius: 12px;
+}
+
+#btn:hover {
+  background-color: black;
+  color: white;
+}
